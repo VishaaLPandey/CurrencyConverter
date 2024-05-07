@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E272E; /* Change the background color to a darker shade */
+    color: #fff; /* Set text color to white */
+}
+
+
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #2C3E50; /* Change the background color to a dark blue */
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+
+.header h1 {
+    color: #FFD700; /* Change the color to gold */
+    margin: 0;
+    text-align: center;
+}
+
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.converter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    margin-right: 10px; /* Add margin-right to create separation */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+#result {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
